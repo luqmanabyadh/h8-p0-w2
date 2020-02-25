@@ -1,0 +1,8 @@
+m = number(masa benda) kg
+a = percepatan benda(m/s2)
+
+ΣF = resultan gaya newton
+
+pseudo =
+
+GET number 'm'
