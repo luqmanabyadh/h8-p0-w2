@@ -1,8 +1,51 @@
-m = number(masa benda) kg
-a = percepatan benda(m/s2)
+No.1 
 
-ΣF = resultan gaya newton
+READ m with 600kg value
+READ a with 2m/s2 value
+CALCULATE m(600Kg) times a(2m/s2)
+DISPLAY ΣF with calculation result value(1200n)
 
-pseudo =
+No.2
 
-GET number 'm'
+READ tahun with number value
+
+IF tahun modulus 4 is 0 AND tahun modulus 100 is 1
+OR tahun modulus 4 is 0 AND tahun modulus 100 is 0 AND tahun modulus 400 is 0
+THEN
+DISPLAY "kabisat"
+ELSE "non kabisat"
+
+
+No.3
+
+READ pakaian with any number value
+
+CALCULATE pakaian value
+IF pakaian value EQUAL 20pcs
+WHILE
+
+No.4
+
+STORE "periksa" with 0
+
+WHILE "periksa" < 40
+    CALCULATE "siswa"
+    IF "siswa" value is "panjang"
+    DO "hukum"
+
+    ELSE
+    DO "puji"
+
+    ADD "periksa" value by 1
+
+
+
+
+
+
+
+
+
+
+
+
