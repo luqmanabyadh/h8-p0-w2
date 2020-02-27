@@ -27,6 +27,24 @@ for(var looping4 = 20; looping4 > 0; looping4--) {
     console.log(looping4 + ' ' + '- I will become fullstack developer')
 }
 
-// No.3 (looping ganjil genap)
+// No.3 (looping angka)
 
+// GENAP GANJIL
 
+for (var angka = 1; angka <= 100; angka++) {
+    if (angka % 2 == 0) {
+        console.log(angka + ' ' + '- GENAP')
+    } else {
+        console.log(angka + ' ' + '- GANJIL')
+    }
+}
+
+// TAMBAH 2
+
+for (var tambah2 = 1; tambah2 < 100; tambah2 += 2) {
+    if (tambah2 % 3 == 0) {
+        console.log(tambah2 + ' ' + 'Kelipatan 3')
+    } else {
+        console.log('')
+    }
+}
