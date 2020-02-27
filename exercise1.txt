@@ -18,25 +18,37 @@ ELSE "non kabisat"
 
 No.3
 
-READ pakaian with any number value
+READ pakaian with 20pcs
 
 CALCULATE pakaian value
-IF pakaian value EQUAL 20pcs
-WHILE
+IF pakaian value is 20 pcs
+DO laundry!
+
+ELSE
+
+WHILE pakaian value less than 20pcs
+DO add pakaian value with 1
+
+ENDWHILE
+
+THEN
+DO laundry!
 
 No.4
 
+Periksa kuku, ada 40 siswa. kalo kuku nya panjang dihukum kalo pendek dikasih reward
+
+
 STORE "periksa" with 0
 
-WHILE "periksa" < 40
-    CALCULATE "siswa"
-    IF "siswa" value is "panjang"
-    DO "hukum"
+WHILE "periksa" value less than 40
+CALCULATE "siswa"
+IF "siswa" value is "panjang"
+DO "hukum"
+DO add periksa value with 1
 
-    ELSE
-    DO "puji"
-
-    ADD "periksa" value by 1
+ELSE
+DO "puji"
 
 
 
