@@ -18,21 +18,14 @@ ELSE "non kabisat"
 
 No.3
 
-READ pakaian with 20pcs
+READ pakaian with 0
+READ hitungPakaian with 20
 
-CALCULATE pakaian value
-IF pakaian value is 20 pcs
-DO laundry!
-
+WHILE pakaian less than hitungPakaian
+    ADD pakaian by 1
 ELSE
-
-WHILE pakaian value less than 20pcs
-DO add pakaian value with 1
-
+    DO laundry!
 ENDWHILE
-
-THEN
-DO laundry!
 
 No.4
 
