@@ -12,10 +12,22 @@ while (bintang <= rows1 ) {
 
 var rows2 = 5
 
-for (var i = 1; i <= rows2; i++) {
-    var j = '';
-    for (var x = 1; x <= rows2; x++) {
-        j += '*'
+for (var a = 1; a <= rows2; a++) {
+    var b = ''
+    for (var c = 1; c <= rows2; c++) {
+        b += '*'
     }
-    console.log(j)
+    console.log(b)
+}
+
+// No.3
+
+var rows3 = 5
+
+for (var e = 0; e < rows3; e++) {
+    var f = '*'
+  for  (var g = 0; g < e; g++) {   
+        f +='*'
+    }
+    console.log(f)
 }
