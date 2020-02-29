@@ -27,19 +27,19 @@ STORE hitungPakaian with 20
 WHILE pakaian less than hitungPakaian
     INCREMENT pakaian
 ELSE
-    Do laundry!
+    INIT laundry!
 ENDWHILE
 
 No.4
 
-STORE periksa with 0
+SET udahPeriksa with 0
 
-WHILE periksa value less than 40
-    CALCULATE siswa
-        IF siswa value is panjang THEN
-            Do hukum
-            INCREMENT periksa value
+REPEAT 
+    INIT periksaKuku
+        INCREMENT udahPeriksa
+        IF periksaKuku is panjang
+            INIT hukum
         ELSE
-            Do puji
+            INIT puji
         ENDIF
-ENDWHILE
+UNTIL udahPeriksa = 40
