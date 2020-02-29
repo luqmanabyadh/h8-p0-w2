@@ -2,7 +2,9 @@ No.1
 
 READ m with 600kg value
 READ a with 2m/s2 value
+
 CALCULATE m(600Kg) times a(2m/s2)
+
 DISPLAY ΣF with calculation result value(1200n)
 
 No.2
@@ -10,11 +12,12 @@ No.2
 READ tahun with number value
 
 IF tahun modulus 4 is 0 AND tahun modulus 100 is 1
-OR tahun modulus 4 is 0 AND tahun modulus 100 is 0 AND tahun modulus 400 is 0
-THEN
-DISPLAY "kabisat"
+    OR tahun modulus 4 is 0 AND tahun modulus 100 is 0 AND tahun modulus 400 is 0
+    THEN
+        DISPLAY "kabisat"
 ELSE "non kabisat"
 
+ENDIF
 
 No.3
 
@@ -29,28 +32,14 @@ ENDWHILE
 
 No.4
 
-Periksa kuku, ada 40 siswa. kalo kuku nya panjang dihukum kalo pendek dikasih reward
+READ periksa with 0
 
-
-STORE "periksa" with 0
-
-WHILE "periksa" value less than 40
-CALCULATE "siswa"
-IF "siswa" value is "panjang"
-DO "hukum"
-DO add periksa value with 1
-
-ELSE
-DO "puji"
-
-
-
-
-
-
-
-
-
-
-
-
+WHILE periksa value less than 40
+    CALCULATE siswa
+        IF siswa value is panjang
+            DO hukum
+            DO add periksa value with 1
+        ELSE
+            DO puji
+        ENDIF
+ENDWHILE
