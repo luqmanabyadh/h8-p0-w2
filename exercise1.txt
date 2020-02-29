@@ -21,11 +21,11 @@ ENDIF
 
 No.3
 
-READ pakaian with 0
-READ hitungPakaian with 20
+STORE pakaian with 0
+STORE hitungPakaian with 20
 
 WHILE pakaian less than hitungPakaian
-    ADD pakaian by 1
+    INCREMENT pakaian value
 ELSE
     DO laundry!
 ENDWHILE
@@ -38,7 +38,7 @@ WHILE periksa value less than 40
     CALCULATE siswa
         IF siswa value is panjang
             DO hukum
-            DO add periksa value with 1
+            INCREMENT periksa value
         ELSE
             DO puji
         ENDIF
